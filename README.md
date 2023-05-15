@@ -12,17 +12,16 @@ Overview of the files and data present in the root directory :
   - Data :
       - eda --> data exploration output
       - results --> dataset
-  results --> model scores, ROC curve ..
-  models --> saved models in .pkl format
-  logs --> log file 
+  - results --> model scores, ROC curve ..
+  - models --> saved models in .pkl format
+  - logs --> log file 
  
 Project files:
   - churn_library.py
   - churn_notebook.ipnyb
   - requirements.txt
 pytest files:
-  - Unit tests file: test_churn_script.py 
-  - logging files: logs/churn_library.log 
+  - Unit tests and loggings file: test_churn_script.py 
 ## Running Files
 
 - To run the project, execute the script python churn_library.py from the project folder
